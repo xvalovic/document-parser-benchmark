@@ -1,0 +1,40 @@
+[project]
+name = "document-parser-benchmark"
+version = "0.1.0"
+description = "POC benchmark for AI Knowledge document parsers"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "boto3",
+  "docling",
+  "llama_cloud>=1.0",
+  "marker-pdf[full]",
+  "pymupdf4llm",
+  "python-docx",
+  "python-dotenv>=1.2.2",
+  "python-pptx",
+  "rapidfuzz",
+  "requests",
+  "unstructured[pdf]",
+]
+
+[project.optional-dependencies]
+core = [
+  "docling",
+  "pymupdf4llm",
+  "python-docx",
+  "python-pptx",
+  "rapidfuzz",
+]
+cloud = [
+  "boto3",
+  "llama_cloud>=1.0",
+  "requests",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false

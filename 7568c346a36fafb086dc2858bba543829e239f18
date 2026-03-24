@@ -1,0 +1,23 @@
+.gitignore
+  29fdc511829c501b 1-54,59-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "7568c346a36fafb086dc2858bba543829e239f18",
+  "prompts": {
+    "29fdc511829c501b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "8e4fa6c3-9ca7-4e98-bc4f-ebd051a3f19c",
+        "model": "default"
+      },
+      "human_author": "Roman Valovic <xvalovic@mendelu.cz>",
+      "messages": [],
+      "total_additions": 65,
+      "total_deletions": 2,
+      "accepted_lines": 63,
+      "overriden_lines": 0
+    }
+  }
+}
